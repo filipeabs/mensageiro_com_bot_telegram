@@ -28,7 +28,7 @@ Assim que identificar mensagem objetivo, envia uma notificação via Bot Telegra
     
 ## Para enviar mensagens
 
-Para simular um novo ciclo e efetuar novos envios de mensagem, pode adicionar um registro na tabela AUTCOM.VW_PEDIDOS_BAIXADOS_NAO_FATURADOS que é criada assim que o projeto é executado. Verifique o arquivo carga.sql que se encontra em db/init/citel
+Para simular um novo ciclo e efetuar novos envios de mensagem, pode adicionar um registro na tabela COMERCIAL.VW_PEDIDOS_BAIXADOS_NAO_FATURADOS que é criada assim que o projeto é executado. Verifique o arquivo carga.sql que se encontra em db/initcom
 
 É possível também simular o envio de mensagem pelo Bot inserindo apenas na tabela teste.Mensagens.
 
